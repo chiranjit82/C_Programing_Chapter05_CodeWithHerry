@@ -11,5 +11,5 @@ int main()
 
 // Function Defination.
 void display() {
-    printf("This is a display Function.");
+    printf("This is a display Function.\n");
 }
