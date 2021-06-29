@@ -59,7 +59,22 @@
 //     return avg;
 // }
 
+// Practice Set 02:
+// #include<stdio.h>
+// float converter(int a);
 
+// int main(){ 
+//     int cel;
+//     printf("Enter the celcious temperature: ");
+//     scanf("%d", &cel);
+//     float ans = converter(cel);
+//     printf("The similar temperature in ferhenhie is %f", ans);
+//     return 0;
+// }
+// float converter(int a) {
+//     float fer = (9.0/5.0)*a + 32;
+//     return fer;
+// }
 
 // Practice Set 03:
 // #include<stdio.h>
