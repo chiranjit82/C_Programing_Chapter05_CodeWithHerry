@@ -59,10 +59,50 @@
 //     return avg;
 // }
 
-// Practice Set 02:
+
+
+// Practice Set 03:
+// #include<stdio.h>
+// float force (int a);
+
+// int main(){ 
+//     int mass;
+//     printf("Enter the mass of the objet: ");
+//     scanf("%d", &mass);
+//     float ans = force(mass);
+//     printf("The force on the object is %f", ans);
+//     return 0;
+// }
+// float force (int a) {
+//     float ans = 9.8 * a;
+//     return ans;
+// }
+
+// Practice Set 04:
 #include<stdio.h>
+int fibonaccy(int c, int a, int b);
 
 int main(){ 
-    
+    int num;
+    printf("Enter the number: ");
+    scanf("%d", &num);
+    int a, b;
+    a = 0;
+    b = 1;
+    int ans = fibonaccy(num,a,b);
+    printf("The nth term is %d", ans);
     return 0;
+}
+int fibonaccy(int c, int a, int b) {
+    if (c < b) 
+    {
+        return b;
+    }
+    else {
+        int temp = a + b;
+        a = b;
+        b = temp;
+        fibonaccy(c,a,b);
+    }
+    
 }
