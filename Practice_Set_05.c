@@ -94,30 +94,101 @@
 // }
 
 // Practice Set 04:
-#include<stdio.h>
-int fibonaccy(int c, int a, int b);
+// #include<stdio.h>
+// int fibonaccy(int c, int a, int b);
+// int fib(int n);
 
-int main(){ 
-    int num;
-    printf("Enter the number: ");
-    scanf("%d", &num);
-    int a, b;
-    a = 0;
-    b = 1;
-    int ans = fibonaccy(num,a,b);
-    printf("The nth term is %d", ans);
-    return 0;
-}
-int fibonaccy(int c, int a, int b) {
-    if (c < b) 
-    {
-        return b;
-    }
-    else {
-        int temp = a + b;
-        a = b;
-        b = temp;
-        fibonaccy(c,a,b);
-    }
+// int main(){ 
+//     int num;
+//     printf("Enter the number: ");
+//     scanf("%d", &num);
+//     int a, b;
+//     a = 0;
+//     b = 1;
+//     int ans = fibonaccy(num,a,b);
+//     printf("The nth term is %d", ans);
+//     int ans1 = fib(num-2);
+//     printf("The nth term is %d", ans1);
+
+//     return 0;
+// }
+// int fibonaccy(int c, int a, int b) {
+//     if (c < b) 
+//     {
+//         return b;
+//     }
+//     else {
+//         int temp = a + b;
+//         a = b;
+//         b = temp;
+//         fibonaccy(c,a,b);
+//     }
     
-}
+// }
+// int fib (int n) {
+//     if (n==1 || n==0)
+//     {
+//         return 1;
+//     }
+//     else
+//     {
+//         return (fib (n-1) + fib (n-2));
+//     }
+    
+    
+// }
+
+// practice set 05:
+// #include<stdio.h>
+
+// int main(){ 
+//     int a = 10;
+//     printf("%d  %d  %d \n", a, a++, ++a);
+//     return 0;
+// }
+
+// Practice Set 06:
+// #include<stdio.h>
+// int sum (int n);
+
+// int main(){ 
+//     int n;
+//     printf("Enter the number: ");
+//     scanf("%d", &n);
+//     int ans = sum (n);
+//     printf("The sum of %d nt natural number is %d", n, ans);
+//     return 0;
+// }
+// int sum (int n) {
+//     if (n == 1)
+//     {
+//         return 1;
+//     }
+//     else
+//     {
+//         return (n + sum(n-1));
+//     }
+    
+// }
+// Practice Set 07:
+// #include<stdio.h>
+// void pattern( int n);
+
+// int main(){ 
+//     int n = 3;
+//     pattern(n);
+//     return 0;
+// }
+// void pattern(int n) {
+//     if (n==1) {
+//         printf("*\n");
+//         return;
+//     }
+//     pattern (n-1);
+//     for (int i = 0; i < (2*n-1); i++)
+//     {
+//         printf("*");
+//     }
+//     printf("\n");
+    
+// }
