@@ -6,6 +6,6 @@ int main()
     int side;
     printf("Enter the value of side: \n");
     scanf("%d", &side);
-    printf("The area of the Square is %f", pow(side,2));
+    printf("The area of the Square is %.1f", pow(side,2));
     return 0;
 }

@@ -6,17 +6,20 @@ void GoodNight();
 
 int main() 
 {
-    GoodMorning();    
+    GoodMorning();    // Function Call
     return 0;
 }
+// Function Defination
 void GoodMorning() {
     printf("Good Morning Rubai. \n");
-     GoodAfternoon();
+     GoodAfternoon();   // Function Call
 }
+// Function Defination
 void GoodAfternoon() {
     printf("Good After Noon Rubai. \n");
-    GoodNight();
+    GoodNight();    // Function Call
 }
+// Function Defination
 void GoodNight() {
     printf("Good Night Rubai. \n");
 }
